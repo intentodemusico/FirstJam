@@ -9,19 +9,21 @@ public class followKillZone : MonoBehaviour
     private Vector3 camPosition;
     private Animator anim;
     private Rigidbody2D rb;
+    private Transform target;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        target = followObject.GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        camPosition = new Vector3(followObject.transform.position.x-2f , -5.55f, 0f);
-        transform.position = camPosition;
-        anim.SetFloat("Speed", Mathf.Abs(followObject.transform.position.x));
+        transform.position = Vector2.MoveTowards(transform.position, target.position, 2f * Time.deltaTime);
+        
+        anim.SetFloat("Speed", Mathf.Abs(transform.position.x));
       
        
     }
