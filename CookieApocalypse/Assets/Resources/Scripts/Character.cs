@@ -9,14 +9,16 @@ public class Character : MonoBehaviour
     public float speed;
     [Header("Fuerza de salto: ")]
     public float jump;
-   
-   
+    [Header("Maxima velocidad: ")]
+    public float maxSpeed;
+
     private Rigidbody2D rb;
-    public AudioClip Sound;
+    
     private Animator anim;
-    public float distGround;
-    private AudioSource source;
     private bool isOnGround;
+    private AudioSource source;
+    public float distGround;
+    public AudioClip Sound;
     //Reloj
     bool timerReached;
     float timer;
@@ -49,7 +51,7 @@ public class Character : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Hider") )
+        /*if (collision.CompareTag("Hider") )
         {
             var obj = GameObject.FindWithTag("Texto");
             if (obj != null)
@@ -57,8 +59,8 @@ public class Character : MonoBehaviour
                 obj.SetActive(false);
             }
 
-        }
-        else if (collision.CompareTag("KillZone"))
+        }*/
+        if (collision.CompareTag("KillZone"))
         {
             StartCoroutine(waiting());
 
@@ -84,6 +86,9 @@ public class Character : MonoBehaviour
         float movHorizontal = Input.GetAxis("Horizontal");
         Vector2 movimiento = new Vector2(movHorizontal, 0f);
         rb.AddForce(movimiento * speed * 2f);
+        float limitSpeed = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
+        rb.velocity = new Vector2(limitSpeed, rb.velocity.y);
+
        // rb.rotation -= movHorizontal*speed;
         if (Input.GetButtonDown("Jump") && isOnGround) //Devuelve verdadero en  el frame que se oprimió
         {
@@ -91,6 +96,14 @@ public class Character : MonoBehaviour
             source.PlayOneShot(Sound, 2f);
            
             rb.AddForce(Vector2.up*jump*50f,ForceMode2D.Force);
+        }
+        if (movHorizontal > 0.1f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        if (movHorizontal < -0.1f)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         /*
         if (Input.GetAxis("Horizontal") > 0)
