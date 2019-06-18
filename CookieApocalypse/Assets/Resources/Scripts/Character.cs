@@ -91,7 +91,7 @@ public class Character : MonoBehaviour
         rb.AddForce(movimiento * speed * 2f);
         float limitSpeed = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
         rb.velocity = new Vector2(limitSpeed, rb.velocity.y);
-        
+        /*
         // Cast a ray straight down.
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
         //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
@@ -104,7 +104,7 @@ public class Character : MonoBehaviour
         }
         Debug.Log(hit.distance);
         Debug.DrawRay(transform.position, -Vector2.up, Color.red);
-
+        */
         // rb.rotation -= movHorizontal*speed;
         if (Input.GetButtonDown("Jump") && _isOnGround) //Devuelve verdadero en  el frame que se oprimió
         {
