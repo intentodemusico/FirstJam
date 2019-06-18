@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c895fe-8d2b-42d8-88e0-5ac44461f45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,30 +12,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
+            <state relative-caret-position="165">
+              <caret line="14" column="144" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="144" />
               <folding>
-                <marker date="1560818681248" expanded="false" signature="6:113" ph="..." />
-                <marker date="1560818681248" expanded="true" signature="153:4199" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="826:1002" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1061:1180" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1122:1174" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1214:1540" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1596:1933" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1611:1821" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
-                <marker date="1560818681248" expanded="true" signature="1867:1927" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="1995:2114" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="2055:2108" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="2140:2257" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="2319:4197" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="2824:3004" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="3259:3478" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="3512:3592" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="3627:3708" ph="{...}" />
-                <marker date="1560818681248" expanded="true" signature="3717:4190" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+                <marker date="1560818906434" expanded="false" signature="6:113" ph="..." />
+                <marker date="1560818906434" expanded="true" signature="153:4285" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="826:1002" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1061:1180" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1122:1174" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1214:1540" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1596:1933" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1611:1821" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
+                <marker date="1560818906434" expanded="true" signature="1867:1927" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="1995:2114" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="2055:2108" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="2140:2257" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="2319:4283" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="2909:3092" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="3345:3564" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="3598:3678" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="3713:3794" ph="{...}" />
+                <marker date="1560818906434" expanded="true" signature="3803:4276" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <marker date="1560820157344" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560820157344" expanded="true" signature="121:678" ph="{...}" />
+                <marker date="1560820157344" expanded="true" signature="450:471" ph="{...}" />
+                <marker date="1560820157344" expanded="true" signature="529:676" ph="{...}" />
+                <marker date="1560820157344" expanded="true" signature="569:669" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,11 +69,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" />
       </list>
     </option>
   </component>
@@ -71,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="659" />
+    <option name="width" value="1268" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -143,7 +160,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1577000" />
+    <option name="totallyTimeSpent" value="1846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,11 +172,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1376" y="0" width="551" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.032822758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.061099797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -203,27 +220,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
+        <state relative-caret-position="165">
+          <caret line="14" column="144" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="144" />
           <folding>
-            <marker date="1560818681248" expanded="false" signature="6:113" ph="..." />
-            <marker date="1560818681248" expanded="true" signature="153:4199" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="826:1002" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1061:1180" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1122:1174" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1214:1540" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1596:1933" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1611:1821" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
-            <marker date="1560818681248" expanded="true" signature="1867:1927" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="1995:2114" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="2055:2108" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="2140:2257" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="2319:4197" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="2824:3004" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="3259:3478" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="3512:3592" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="3627:3708" ph="{...}" />
-            <marker date="1560818681248" expanded="true" signature="3717:4190" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+            <marker date="1560818906434" expanded="false" signature="6:113" ph="..." />
+            <marker date="1560818906434" expanded="true" signature="153:4285" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="826:1002" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1061:1180" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1122:1174" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1214:1540" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1596:1933" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1611:1821" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
+            <marker date="1560818906434" expanded="true" signature="1867:1927" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="1995:2114" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="2055:2108" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="2140:2257" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="2319:4283" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="2909:3092" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="3345:3564" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="3598:3678" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="3713:3794" ph="{...}" />
+            <marker date="1560818906434" expanded="true" signature="3803:4276" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1560820157344" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560820157344" expanded="true" signature="121:678" ph="{...}" />
+            <marker date="1560820157344" expanded="true" signature="450:471" ph="{...}" />
+            <marker date="1560820157344" expanded="true" signature="529:676" ph="{...}" />
+            <marker date="1560820157344" expanded="true" signature="569:669" ph="{...}" />
           </folding>
         </state>
       </provider>
