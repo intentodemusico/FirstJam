@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Suelo
   - KillZone
+  - Elevator
+  - button
   layers:
   - Default
   - TransparentFX
