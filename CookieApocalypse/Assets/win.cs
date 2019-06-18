@@ -7,22 +7,27 @@ public class win : MonoBehaviour
 {
     [Header("Escena a dirigir: ")]
     public string cadena;
-   
-    public AudioClip Sound;
     private AudioSource source;
+    public AudioClip Sound;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Personaje"))
+        {
+            Debug.Log("entrando");
+            StartCoroutine(waiting());
+        }
        
-        StartCoroutine(waiting());
+       
     }
     private IEnumerator waiting()
     {
-        Sound = (AudioClip)Resources.Load("Audio/win", typeof(AudioClip));
+        Sound = (AudioClip)Resources.Load("Audio/Win", typeof(AudioClip));
         source.PlayOneShot(Sound, 2f);
         yield return new WaitWhile(() => source.isPlaying);
       
@@ -35,6 +40,6 @@ public class win : MonoBehaviour
     void Update()
     {
         
-        SceneManager.LoadScene(cadena);
+        
     }
 }
