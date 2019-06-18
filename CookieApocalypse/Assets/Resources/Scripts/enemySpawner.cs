@@ -6,11 +6,11 @@ public class enemySpawner : MonoBehaviour
 {
     [Header("Enemigo a spawnear")] public GameObject enemy;
     private float randX;
-    private bool canSpawn = true;
+    //private bool canSpawn = true;
     
     
     //[Header("Spawn limit")] [Tooltip("Se debe ingresar la cantidad máxima de enemigos a spawnear.")] 
-    private int spawnLimit=100;
+    //private int spawnLimit=100;
     
     private Vector2 whereToSpawn;
     // [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] 
@@ -29,15 +29,15 @@ public class enemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canSpawn && Time.time > nexSpawn)
+        if (Time.time > nexSpawn)//canSpawn && Time.time > nexSpawn)
         {
             nexSpawn = Time.time + spawnRate;
             randX = Random.Range(-10, 50);
             whereToSpawn=new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
-            spawned++;
-            if (spawned==spawnLimit)
-                canSpawn = false;
+            //spawned++;
+            //if (spawned==spawnLimit)
+                //canSpawn = false;
         }
 
     }
