@@ -12,6 +12,7 @@
             <e p="spritesheet_spaceships.xml" t="Include" />
           </e>
         </e>
+        <e p="iniciar.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="Scripts" t="Include">
             <e p="camaraFollow.cs" t="Include" />
