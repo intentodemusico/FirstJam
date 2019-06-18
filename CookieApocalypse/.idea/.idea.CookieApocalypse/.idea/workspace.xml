@@ -70,15 +70,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="90">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <marker date="1560867293613" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560867293613" expanded="true" signature="121:1315" ph="{...}" />
-                <marker date="1560867293613" expanded="true" signature="572:709" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
-                <marker date="1560867293613" expanded="true" signature="839:860" ph="{...}" />
-                <marker date="1560867293613" expanded="true" signature="918:1313" ph="{...}" />
-                <marker date="1560867293613" expanded="true" signature="970:1306" ph="{...}" />
+                <marker date="1560872829414" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560872829414" expanded="true" signature="121:1348" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="259:392" ph="/* [Header(&quot;Spawn limit&quot;)] [Tooltip(&quot;Se debe ingresar la cantidad máxima de enemigos a spawnear.&quot;)] ... */" />
+                <marker date="1560872829414" expanded="true" signature="576:713" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
+                <marker date="1560872829414" expanded="true" signature="843:864" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="922:1346" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="997:1339" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="1242:1329" ph="/* spawned++; ... */" />
               </folding>
             </state>
           </provider>
@@ -196,12 +198,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560817080925</updated>
       <workItem from="1560817087910" duration="1577000" />
-      <workItem from="1560863999288" duration="1649000" />
+      <workItem from="1560863999288" duration="2891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14505000" />
+    <option name="totallyTimeSpent" value="15747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,15 +353,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="90">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <marker date="1560867293613" expanded="false" signature="6:78" ph="..." />
-            <marker date="1560867293613" expanded="true" signature="121:1315" ph="{...}" />
-            <marker date="1560867293613" expanded="true" signature="572:709" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
-            <marker date="1560867293613" expanded="true" signature="839:860" ph="{...}" />
-            <marker date="1560867293613" expanded="true" signature="918:1313" ph="{...}" />
-            <marker date="1560867293613" expanded="true" signature="970:1306" ph="{...}" />
+            <marker date="1560872829414" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560872829414" expanded="true" signature="121:1348" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="259:392" ph="/* [Header(&quot;Spawn limit&quot;)] [Tooltip(&quot;Se debe ingresar la cantidad máxima de enemigos a spawnear.&quot;)] ... */" />
+            <marker date="1560872829414" expanded="true" signature="576:713" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
+            <marker date="1560872829414" expanded="true" signature="843:864" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="922:1346" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="997:1339" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="1242:1329" ph="/* spawned++; ... */" />
           </folding>
         </state>
       </provider>
