@@ -9,13 +9,15 @@ public class enemySpawner : MonoBehaviour
     private bool canSpawn = true;
     
     
-    [Header("Spawn limit")] [Tooltip("Se debe ingresar la cantidad máxima de enemigos a spawnear.")] 
-    public int spawnLimit=30;
+    //[Header("Spawn limit")] [Tooltip("Se debe ingresar la cantidad máxima de enemigos a spawnear.")] 
+    private int spawnLimit=50;
     
     private Vector2 whereToSpawn;
-    [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] public float spawnRate = 10f;
+    // [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] 
+    private float spawnRate = 8f;
     
-    [Header("Spawn range X")] [Tooltip("Se debe ingresar el rango en X de spawneo de los enemigos.")] public float randRange = 30f;
+   // [Header("Spawn range X")] [Tooltip("Se debe ingresar el rango en X de spawneo de los enemigos.")]
+    private float randRange = 50f;
     private int spawned;
     private float nexSpawn = 0.0f;
     // Start is called before the first frame update
