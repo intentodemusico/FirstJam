@@ -17,6 +17,7 @@
             <e p="camaraFollow.cs" t="Include" />
             <e p="Character.cs" t="Include" />
             <e p="Elevator.cs" t="Include" />
+            <e p="enemyAutoDestroy.cs" t="Include" />
             <e p="enemySpawner.cs" t="Include" />
             <e p="followBackground.cs" t="Include" />
             <e p="followKillZone.cs" t="Include" />
