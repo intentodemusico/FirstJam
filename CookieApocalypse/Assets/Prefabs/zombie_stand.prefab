@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4389880376439944993}
   - component: {fileID: 4389880376439944998}
   - component: {fileID: 7326907378964518470}
+  - component: {fileID: -2121145189455435198}
   m_Layer: 0
   m_Name: zombie_stand
   m_TagString: Untagged
@@ -161,3 +162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5098fe23ad1c9254ca36e6f756557618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2121145189455435198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389880376439944999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d33cabdd3edad499f713d4c45d3672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObject: {fileID: 6543970372798158593, guid: 98d5748b870a97b4dbdda2ee391ca003,
+    type: 3}
