@@ -14,7 +14,7 @@ public class enemySpawner : MonoBehaviour
     
     private Vector2 whereToSpawn;
     // [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] 
-    private float spawnRate = 3f;
+    private float spawnRate = 2f;
     
    // [Header("Spawn range X")] [Tooltip("Se debe ingresar el rango en X de spawneo de los enemigos.")]
     //private float randRange = 50f;

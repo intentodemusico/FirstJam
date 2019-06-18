@@ -25,16 +25,16 @@ public class Character : MonoBehaviour
     public float distGround;
     public AudioClip Sound;
     //Reloj
-    bool timerReached;
+    //bool timerReached;
     RaycastHit2D hit;
-    float timer;
+    //float timer;
     // Start is called before the first frame update
     void Start()
     {
         
         rb = GetComponent<Rigidbody2D>();
         source = GetComponent<AudioSource>();
-        timer = 0;
+        //timer = 0;
         anim = GetComponent<Animator>();
         
     }
