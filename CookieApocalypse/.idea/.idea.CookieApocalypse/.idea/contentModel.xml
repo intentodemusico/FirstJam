@@ -16,6 +16,7 @@
           <e p="Scripts" t="Include">
             <e p="camaraFollow.cs" t="Include" />
             <e p="Character.cs" t="Include" />
+            <e p="enemySpawner.cs" t="Include" />
             <e p="followKillZone.cs" t="Include" />
             <e p="rotation.cs" t="Include" />
           </e>
