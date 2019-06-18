@@ -69,6 +69,7 @@ public class Character : MonoBehaviour
         if (collision.CompareTag("KillZone"))
         {
             StartCoroutine(waiting());
+            rb.Sleep();
 
         }
     }
@@ -111,7 +112,7 @@ public class Character : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.Log("El bato se cayó");
+           // Debug.Log(e);
             //throw;
         }
         //Debug.Log(hit.distance);
