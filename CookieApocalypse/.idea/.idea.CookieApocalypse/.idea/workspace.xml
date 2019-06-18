@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c895fe-8d2b-42d8-88e0-5ac44461f45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
+            <state relative-caret-position="1395">
               <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
               <folding>
                 <marker date="1560867289112" expanded="false" signature="6:127" ph="..." />
@@ -60,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/followKillZone.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="345">
               <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <marker date="1560867289125" expanded="false" signature="6:78" ph="..." />
@@ -75,31 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <marker date="1560867289121" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560867289121" expanded="true" signature="121:1314" ph="{...}" />
-                <marker date="1560867289121" expanded="true" signature="572:709" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
-                <marker date="1560867289121" expanded="true" signature="839:860" ph="{...}" />
-                <marker date="1560867289121" expanded="true" signature="918:1312" ph="{...}" />
-                <marker date="1560867289121" expanded="true" signature="970:1305" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/rotation.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <marker date="1560867289127" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560867289127" expanded="true" signature="117:434" ph="{...}" />
-                <marker date="1560867289127" expanded="true" signature="199:218" ph="{...}" />
-                <marker date="1560867289127" expanded="true" signature="276:432" ph="{...}" />
-                <marker date="1560867289127" expanded="true" signature="340:426" ph="/* suelo.transform.rotation = new Quaternion(0f, 0, change, 0); ... */" />
+                <marker date="1560872829414" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560872829414" expanded="true" signature="121:1348" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="259:392" ph="/* [Header(&quot;Spawn limit&quot;)] [Tooltip(&quot;Se debe ingresar la cantidad máxima de enemigos a spawnear.&quot;)] ... */" />
+                <marker date="1560872829414" expanded="true" signature="576:713" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
+                <marker date="1560872829414" expanded="true" signature="843:864" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="922:1346" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="997:1339" ph="{...}" />
+                <marker date="1560872829414" expanded="true" signature="1242:1329" ph="/* spawned++; ... */" />
               </folding>
             </state>
           </provider>
@@ -220,11 +201,13 @@
       <workItem from="1560817087910" duration="1577000" />
       <workItem from="1560863999288" duration="916000" />
       <workItem from="1560868604256" duration="143000" />
+      <workItem from="1560863999288" duration="2891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="13915000" />
+    <option name="totallyTimeSpent" value="15747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +296,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
+        <state relative-caret-position="1395">
           <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
           <folding>
             <marker date="1560867289112" expanded="false" signature="6:127" ph="..." />
@@ -349,7 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/followKillZone.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="345">
           <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
             <marker date="1560867289125" expanded="false" signature="6:78" ph="..." />
@@ -399,6 +382,17 @@
             <marker date="1560867289127" expanded="true" signature="199:218" ph="{...}" />
             <marker date="1560867289127" expanded="true" signature="276:432" ph="{...}" />
             <marker date="1560867289127" expanded="true" signature="340:426" ph="/* suelo.transform.rotation = new Quaternion(0f, 0, change, 0); ... */" />
+        <state relative-caret-position="90">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <marker date="1560872829414" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560872829414" expanded="true" signature="121:1348" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="259:392" ph="/* [Header(&quot;Spawn limit&quot;)] [Tooltip(&quot;Se debe ingresar la cantidad máxima de enemigos a spawnear.&quot;)] ... */" />
+            <marker date="1560872829414" expanded="true" signature="576:713" ph="/* [Header(&quot;Spawn range X&quot;)] [Tooltip(&quot;Se debe ingresar el rango en X de spawneo de los enemigos.&quot;)] ... */" />
+            <marker date="1560872829414" expanded="true" signature="843:864" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="922:1346" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="997:1339" ph="{...}" />
+            <marker date="1560872829414" expanded="true" signature="1242:1329" ph="/* spawned++; ... */" />
           </folding>
         </state>
       </provider>
