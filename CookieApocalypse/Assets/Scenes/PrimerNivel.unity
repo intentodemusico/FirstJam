@@ -1375,8 +1375,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: d4a983f1b503648408c3722e05e00892,
         type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
@@ -1389,9 +1387,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: button
-=======
-=======
->>>>>>> d7a516dd26b9e95af478f64a9ce6be120edb3fc0
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -1404,10 +1399,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
-<<<<<<< HEAD
->>>>>>> d7a516dd26b9e95af478f64a9ce6be120edb3fc0
-=======
->>>>>>> d7a516dd26b9e95af478f64a9ce6be120edb3fc0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d4a983f1b503648408c3722e05e00892,
         type: 3}
