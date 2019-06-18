@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemySpawner : MonoBehaviour
 {
-    [Header("Enemigo a spawnear")] /*Esto se debe quitar y se debe tener privada pero no sekepedo*/public GameObject enemy; //= GameObject.Find("zombie_stand");
+    [Header("Enemigo a spawnear")] public GameObject enemy;
 
     private float randX;
     private bool canSpawn = true;
