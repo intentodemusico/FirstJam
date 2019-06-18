@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c895fe-8d2b-42d8-88e0-5ac44461f45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CookieApocalypse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,14 +44,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="135">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
-                <marker date="1560828084641" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560828084641" expanded="true" signature="121:1103" ph="{...}" />
-                <marker date="1560828084641" expanded="true" signature="719:740" ph="{...}" />
-                <marker date="1560828084641" expanded="true" signature="798:1101" ph="{...}" />
-                <marker date="1560828084641" expanded="true" signature="838:1094" ph="{...}" />
+                <marker date="1560828606637" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560828606637" expanded="true" signature="121:1174" ph="{...}" />
+                <marker date="1560828606637" expanded="true" signature="778:799" ph="{...}" />
+                <marker date="1560828606637" expanded="true" signature="857:1172" ph="{...}" />
+                <marker date="1560828606637" expanded="true" signature="909:1165" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,8 +92,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemyAutoDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" />
       </list>
     </option>
   </component>
@@ -179,7 +178,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7168000" />
+    <option name="totallyTimeSpent" value="7477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,14 +279,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="135">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <marker date="1560828084641" expanded="false" signature="6:78" ph="..." />
-            <marker date="1560828084641" expanded="true" signature="121:1103" ph="{...}" />
-            <marker date="1560828084641" expanded="true" signature="719:740" ph="{...}" />
-            <marker date="1560828084641" expanded="true" signature="798:1101" ph="{...}" />
-            <marker date="1560828084641" expanded="true" signature="838:1094" ph="{...}" />
+            <marker date="1560828606637" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560828606637" expanded="true" signature="121:1174" ph="{...}" />
+            <marker date="1560828606637" expanded="true" signature="778:799" ph="{...}" />
+            <marker date="1560828606637" expanded="true" signature="857:1172" ph="{...}" />
+            <marker date="1560828606637" expanded="true" signature="909:1165" ph="{...}" />
           </folding>
         </state>
       </provider>
