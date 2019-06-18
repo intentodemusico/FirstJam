@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemySpawner : MonoBehaviour
 {
-    public GameObject enemy;
+    private GameObject enemy = GameObject.Find("zombie_stand");
 
     private float randX;
     

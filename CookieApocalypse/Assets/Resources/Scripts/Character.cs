@@ -12,7 +12,8 @@ public class Character : MonoBehaviour
     [Header("Maxima velocidad: ")]
     public float maxSpeed;
 
-    [Header("Capa de salto")] [Tooltip("Se debe seleccionar la capa en que se encuentran los objetos sobre los que se puede saltar (Jumpable)")] public LayerMask groundLayer;
+    //[Header("Capa de salto")] [Tooltip("Se debe seleccionar la capa en que se encuentran los objetos sobre los que se puede saltar (Jumpable)")]
+    LayerMask groundLayer=1 << 8;
     
     
     private Rigidbody2D rb;
@@ -24,11 +25,12 @@ public class Character : MonoBehaviour
     public AudioClip Sound;
     //Reloj
     bool timerReached;
+    RaycastHit2D hit;
     float timer;
     // Start is called before the first frame update
     void Start()
     {
-      
+        
         rb = GetComponent<Rigidbody2D>();
         source = GetComponent<AudioSource>();
         timer = 0;
@@ -37,10 +39,10 @@ public class Character : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo") )
+       /* if (collision.gameObject.CompareTag("Suelo") )
         {
             _isOnGround = true;
-        }
+        }*/
     }
     private IEnumerator waiting()
     {
@@ -73,10 +75,10 @@ public class Character : MonoBehaviour
   
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo"))
+        /*if (collision.gameObject.CompareTag("Suelo"))
         {
             _isOnGround = false;
-        }
+        }*/
     }
     private void Update()
     {
@@ -91,9 +93,9 @@ public class Character : MonoBehaviour
         rb.AddForce(movimiento * speed * 2f);
         float limitSpeed = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
         rb.velocity = new Vector2(limitSpeed, rb.velocity.y);
-        /*
+        
         // Cast a ray straight down.
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
+        hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
         //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
         if (!hit.collider.Equals(null))
         {
@@ -102,9 +104,9 @@ public class Character : MonoBehaviour
                 _isOnGround = true;
             else _isOnGround = false;
         }
-        Debug.Log(hit.distance);
+        //Debug.Log(hit.distance);
         Debug.DrawRay(transform.position, -Vector2.up, Color.red);
-        */
+        
         // rb.rotation -= movHorizontal*speed;
         if (Input.GetButtonDown("Jump") && _isOnGround) //Devuelve verdadero en  el frame que se oprimió
         {
