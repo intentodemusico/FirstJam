@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c895fe-8d2b-42d8-88e0-5ac44461f45f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/zombie_stand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/zombie_stand.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +17,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+            <state relative-caret-position="66">
+              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
               <folding>
-                <marker date="1560824836156" expanded="false" signature="6:113" ph="..." />
-                <marker date="1560824836156" expanded="true" signature="153:4320" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="854:1032" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="1091:1214" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="1105:1208" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;) ) ... */" />
-                <marker date="1560824836156" expanded="true" signature="1248:1574" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="1630:1967" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="1645:1855" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
-                <marker date="1560824836156" expanded="true" signature="1901:1961" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="2029:2152" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="2044:2146" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;)) ... */" />
-                <marker date="1560824836156" expanded="true" signature="2178:2295" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="2357:4318" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="2934:3117" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="3380:3599" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="3633:3713" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="3748:3829" ph="{...}" />
-                <marker date="1560824836156" expanded="true" signature="3838:4311" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+                <marker date="1560833214527" expanded="true" signature="6:127" ph="..." />
+                <marker date="1560833214527" expanded="true" signature="167:4510" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="868:1046" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="1105:1228" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="1119:1222" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;) ) ... */" />
+                <marker date="1560833214527" expanded="true" signature="1262:1588" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="1644:1981" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="1659:1869" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
+                <marker date="1560833214527" expanded="true" signature="1915:1975" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="2043:2166" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="2058:2160" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;)) ... */" />
+                <marker date="1560833214527" expanded="true" signature="2192:2309" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="2371:4508" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="2749:3196" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="2979:3186" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="3224:3307" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="3570:3789" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="3823:3903" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="3938:4019" ph="{...}" />
+                <marker date="1560833214527" expanded="true" signature="4028:4501" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12351">
+              <caret line="215" column="22" lean-forward="true" selection-start-line="215" selection-start-column="22" selection-end-line="215" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/followKillZone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <folding>
+                <marker date="1560814404307" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560814404307" expanded="true" signature="123:805" ph="{...}" />
+                <marker date="1560814404307" expanded="true" signature="384:536" ph="{...}" />
+                <marker date="1560814404307" expanded="true" signature="594:803" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,14 +72,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="163" selection-start-line="6" selection-start-column="163" selection-end-line="6" selection-end-column="163" />
+            <state relative-caret-position="225">
+              <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
               <folding>
-                <marker date="1560829367627" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560829367627" expanded="true" signature="121:1415" ph="{...}" />
-                <marker date="1560829367627" expanded="true" signature="925:946" ph="{...}" />
-                <marker date="1560829367627" expanded="true" signature="1004:1413" ph="{...}" />
-                <marker date="1560829367627" expanded="true" signature="1056:1406" ph="{...}" />
+                <marker date="1560834499398" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560834499398" expanded="true" signature="121:1312" ph="{...}" />
+                <marker date="1560834499398" expanded="true" signature="818:839" ph="{...}" />
+                <marker date="1560834499398" expanded="true" signature="897:1310" ph="{...}" />
+                <marker date="1560834499398" expanded="true" signature="949:1303" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,6 +105,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>enemy</find>
       <find>isOn</find>
     </findStrings>
   </component>
@@ -86,13 +115,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/followKillZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemyAutoDestroy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemyAutoDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs" />
       </list>
     </option>
@@ -106,9 +138,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="width" value="1775" />
-    <option name="height" value="1047" />
+    <option name="x" value="904" />
+    <option name="y" value="191" />
+    <option name="width" value="1024" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,6 +150,20 @@
     </navigator>
     <panes>
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scenes" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -178,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8625000" />
+    <option name="totallyTimeSpent" value="12176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,11 +237,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="0" width="1775" height="1047" extended-state="0" />
+    <frame x="904" y="191" width="1024" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.017492712" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32157677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -219,6 +266,33 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32157677" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -236,33 +310,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding>
-            <marker date="1560824836156" expanded="false" signature="6:113" ph="..." />
-            <marker date="1560824836156" expanded="true" signature="153:4320" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="854:1032" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="1091:1214" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="1105:1208" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;) ) ... */" />
-            <marker date="1560824836156" expanded="true" signature="1248:1574" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="1630:1967" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="1645:1855" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
-            <marker date="1560824836156" expanded="true" signature="1901:1961" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="2029:2152" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="2044:2146" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;)) ... */" />
-            <marker date="1560824836156" expanded="true" signature="2178:2295" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="2357:4318" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="2934:3117" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="3380:3599" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="3633:3713" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="3748:3829" ph="{...}" />
-            <marker date="1560824836156" expanded="true" signature="3838:4311" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemyAutoDestroy.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -277,16 +324,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/PrimerNivel.unity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12351">
+          <caret line="215" column="22" lean-forward="true" selection-start-line="215" selection-start-column="22" selection-end-line="215" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+          <folding>
+            <marker date="1560833214527" expanded="true" signature="6:127" ph="..." />
+            <marker date="1560833214527" expanded="true" signature="167:4510" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="868:1046" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="1105:1228" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="1119:1222" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;) ) ... */" />
+            <marker date="1560833214527" expanded="true" signature="1262:1588" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="1644:1981" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="1659:1869" ph="/* if (collision.CompareTag(&quot;Hider&quot;) ) ... */" />
+            <marker date="1560833214527" expanded="true" signature="1915:1975" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="2043:2166" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="2058:2160" ph="/* if (collision.gameObject.CompareTag(&quot;Suelo&quot;)) ... */" />
+            <marker date="1560833214527" expanded="true" signature="2192:2309" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="2371:4508" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="2749:3196" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="2979:3186" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="3224:3307" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="3570:3789" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="3823:3903" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="3938:4019" ph="{...}" />
+            <marker date="1560833214527" expanded="true" signature="4028:4501" ph="/* if (Input.GetAxis(&quot;Horizontal&quot;) &gt; 0) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/followKillZone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <marker date="1560814404307" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560814404307" expanded="true" signature="123:805" ph="{...}" />
+            <marker date="1560814404307" expanded="true" signature="384:536" ph="{...}" />
+            <marker date="1560814404307" expanded="true" signature="594:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/enemySpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="163" selection-start-line="6" selection-start-column="163" selection-end-line="6" selection-end-column="163" />
+        <state relative-caret-position="225">
+          <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
           <folding>
-            <marker date="1560829367627" expanded="false" signature="6:78" ph="..." />
-            <marker date="1560829367627" expanded="true" signature="121:1415" ph="{...}" />
-            <marker date="1560829367627" expanded="true" signature="925:946" ph="{...}" />
-            <marker date="1560829367627" expanded="true" signature="1004:1413" ph="{...}" />
-            <marker date="1560829367627" expanded="true" signature="1056:1406" ph="{...}" />
+            <marker date="1560834499398" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560834499398" expanded="true" signature="121:1312" ph="{...}" />
+            <marker date="1560834499398" expanded="true" signature="818:839" ph="{...}" />
+            <marker date="1560834499398" expanded="true" signature="897:1310" ph="{...}" />
+            <marker date="1560834499398" expanded="true" signature="949:1303" ph="{...}" />
           </folding>
         </state>
       </provider>

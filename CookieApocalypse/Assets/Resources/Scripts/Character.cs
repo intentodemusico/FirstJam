@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -95,15 +96,23 @@ public class Character : MonoBehaviour
         rb.velocity = new Vector2(limitSpeed, rb.velocity.y);
         
         // Cast a ray straight down.
-        hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
-        //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
         
-        if (!hit.collider.Equals(null))
+
+        try
+        {hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
+            //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
+            if (!hit.collider.Equals(null))
+            {
+                //float distance = hit.distance;
+                if (hit.distance <= 0.57f) ////
+                    _isOnGround = true;
+                else _isOnGround = false;
+            }
+        }
+        catch (Exception e)
         {
-            //float distance = hit.distance;
-            if (hit.distance <= 0.57f) ////
-                _isOnGround = true;
-            else _isOnGround = false;
+            Debug.Log("El bato se cayó");
+            //throw;
         }
         //Debug.Log(hit.distance);
         Debug.DrawRay(transform.position, -Vector2.up, Color.red);

@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class enemySpawner : MonoBehaviour
 {
-
-   
-
     [Header("Enemigo a spawnear")] public GameObject enemy;
-
-
     private float randX;
     private bool canSpawn = true;
     
     
-    [Header("Spawn limit")] [Tooltip("Se debe ingresar la cantidad máxima de enemigos a spawnear.")] 
-    public int spawnLimit=20;
+    //[Header("Spawn limit")] [Tooltip("Se debe ingresar la cantidad máxima de enemigos a spawnear.")] 
+    private int spawnLimit=50;
     
     private Vector2 whereToSpawn;
-    [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] public float spawnRate = 10f;
+    // [Header("Spawn rate")] [Tooltip("Se debe ingresar la velocidad de spawneo de los enemigos.")] 
+    private float spawnRate = 8f;
     
-    [Header("Spawn range X")] [Tooltip("Se debe ingresar el rango en X de spawneo de los enemigos.")] public float randRange = 6f;
+   // [Header("Spawn range X")] [Tooltip("Se debe ingresar el rango en X de spawneo de los enemigos.")]
+    private float randRange = 50f;
     private int spawned;
     private float nexSpawn = 0.0f;
     // Start is called before the first frame update
@@ -35,7 +32,7 @@ public class enemySpawner : MonoBehaviour
         if (canSpawn && Time.time > nexSpawn)
         {
             nexSpawn = Time.time + spawnRate;
-            randX = Random.Range(-randRange, randRange);
+            randX = Random.Range(-randRange+5, randRange+5);
             whereToSpawn=new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
             spawned++;
