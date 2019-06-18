@@ -5574,6 +5574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d048c4ea16e7d4cbe64afcafb1411a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotar: 0
 --- !u!212 &1408254944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7783,6 +7784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d048c4ea16e7d4cbe64afcafb1411a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotar: 0
 --- !u!212 &1963226426
 SpriteRenderer:
   m_ObjectHideFlags: 0
