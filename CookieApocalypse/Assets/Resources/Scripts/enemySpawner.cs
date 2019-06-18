@@ -32,13 +32,12 @@ public class enemySpawner : MonoBehaviour
         if (Time.time > nexSpawn)//canSpawn && Time.time > nexSpawn)
         {
             nexSpawn = Time.time + spawnRate;
-            randX = Random.Range(-10, 50);
+            randX = Random.Range(-18, 97);
             whereToSpawn=new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
             //spawned++;
             //if (spawned==spawnLimit)
                 //canSpawn = false;
         }
-
     }
 }

@@ -804,10 +804,15 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 5178796841816463742, guid: 2fa418b113dd4954f9af8b56eedc2735,
+    - target: {fileID: 4320319225413592733, guid: 2fa418b113dd4954f9af8b56eedc2735,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: rotar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320319225997906043, guid: 2fa418b113dd4954f9af8b56eedc2735,
+        type: 3}
+      propertyPath: rotar
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9119349151666920778, guid: 2fa418b113dd4954f9af8b56eedc2735,
         type: 3}
@@ -824,15 +829,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -5.72
       objectReference: {fileID: 0}
-    - target: {fileID: 4320319225413592733, guid: 2fa418b113dd4954f9af8b56eedc2735,
+    - target: {fileID: 5178796841816463742, guid: 2fa418b113dd4954f9af8b56eedc2735,
         type: 3}
-      propertyPath: rotar
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320319225997906043, guid: 2fa418b113dd4954f9af8b56eedc2735,
-        type: 3}
-      propertyPath: rotar
-      value: 0.2
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa418b113dd4954f9af8b56eedc2735, type: 3}
@@ -2223,6 +2223,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143873766}
   m_CullTransparentMesh: 0
+--- !u!1001 &1388314533430706563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6610574307336333920, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_Name
+      value: KillzoneShadowfall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.875938
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.58365
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -83.640625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e860083a4bd109540991195381d9ff50, type: 3}
 --- !u!1001 &2582098153914744350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2297,95 +2366,6 @@ PrefabInstance:
       objectReference: {fileID: 1110856670}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86780e378a5fa37449a1737d0e05fb06, type: 3}
---- !u!1001 &3484973403205488618
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8693123896142078985, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_Name
-      value: KillzoneShadowfall
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031199955568405411, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 5.0863743
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031199955568405411, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 83.512314
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031199955568405411, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -1.1585712
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031199955568405411, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.3171425
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.875938
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -9.58365
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -83.640625
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8364870572991122766, guid: e06eae0b2fd72be40a92e7db7fcb0bf2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e06eae0b2fd72be40a92e7db7fcb0bf2, type: 3}
 --- !u!1001 &4389880377153561605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2499,6 +2479,21 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f031fd18c6847cd489793cee3bbc6b1a, type: 3}
+--- !u!4 &6272574307660464935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6272574307660464935, guid: e860083a4bd109540991195381d9ff50,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388314533430706563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610574307336333920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.875938, y: -9.58365, z: -83.640625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6543970372521178859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2584,3 +2579,48 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6543970372521178859}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6610574307336333920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6610574307336333920, guid: e860083a4bd109540991195381d9ff50,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388314533430706563}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6272574307660464935}
+  - component: {fileID: 7407082022906406346}
+  m_Layer: 0
+  m_Name: KillzoneShadowfall
+  m_TagString: KillZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &7407082022906406346
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7407082022906406346, guid: e860083a4bd109540991195381d9ff50,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388314533430706563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610574307336333920}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.0863743, y: -1.1585712}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 83.512314, y: 3.3171425}
+  m_EdgeRadius: 0

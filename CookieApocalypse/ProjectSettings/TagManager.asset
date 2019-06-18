@@ -8,6 +8,7 @@ TagManager:
   - KillZone
   - Elevator
   - button
+  - Personaje
   layers:
   - Default
   - TransparentFX
