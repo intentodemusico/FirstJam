@@ -695,6 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1842984329}
+  spawnLimit: 20
   spawnRate: 50
   randRange: 10
 --- !u!4 &274375854
@@ -767,7 +768,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.06357813}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -778,7 +779,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8, y: 1.1}
+  m_Size: {x: 0.60672283, y: 0.97284365}
   m_EdgeRadius: 0
 --- !u!95 &295608813
 Animator:
@@ -3192,6 +3193,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4389880377153561605}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1842984336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842984329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5098fe23ad1c9254ca36e6f756557618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1860896470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4342,6 +4355,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389880376439944993, guid: f031fd18c6847cd489793cee3bbc6b1a,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.002693653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389880376439944993, guid: f031fd18c6847cd489793cee3bbc6b1a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.6006861
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389880376439944993, guid: f031fd18c6847cd489793cee3bbc6b1a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.10235059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389880376439944993, guid: f031fd18c6847cd489793cee3bbc6b1a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.8952987
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f031fd18c6847cd489793cee3bbc6b1a, type: 3}
