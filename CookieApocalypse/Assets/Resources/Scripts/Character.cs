@@ -12,10 +12,13 @@ public class Character : MonoBehaviour
     [Header("Maxima velocidad: ")]
     public float maxSpeed;
 
+    [Header("Capa de salto")] [Tooltip("Se debe seleccionar la capa en que se encuentran los objetos sobre los que se puede saltar (Jumpable)")] public LayerMask groundLayer;
+    
+    
     private Rigidbody2D rb;
     
     private Animator anim;
-    private bool isOnGround;
+    private bool _isOnGround;
     private AudioSource source;
     public float distGround;
     public AudioClip Sound;
@@ -36,7 +39,7 @@ public class Character : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Suelo") )
         {
-            isOnGround = true;
+            _isOnGround = true;
         }
     }
     private IEnumerator waiting()
@@ -72,13 +75,13 @@ public class Character : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Suelo"))
         {
-            isOnGround = false;
+            _isOnGround = false;
         }
     }
     private void Update()
     {
         anim.SetFloat("Speed",Mathf.Abs( rb.velocity.x));
-        anim.SetBool("Grounded", isOnGround);
+        anim.SetBool("Grounded", _isOnGround);
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -88,9 +91,22 @@ public class Character : MonoBehaviour
         rb.AddForce(movimiento * speed * 2f);
         float limitSpeed = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
         rb.velocity = new Vector2(limitSpeed, rb.velocity.y);
+        
+        // Cast a ray straight down.
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
+        //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
+        if (!hit.collider.Equals(null))
+        {
+            //float distance = hit.distance;
+            if (hit.distance <= 0.57f) ////
+                _isOnGround = true;
+            else _isOnGround = false;
+        }
+        Debug.Log(hit.distance);
+        Debug.DrawRay(transform.position, -Vector2.up, Color.red);
 
-       // rb.rotation -= movHorizontal*speed;
-        if (Input.GetButtonDown("Jump") && isOnGround) //Devuelve verdadero en  el frame que se oprimió
+        // rb.rotation -= movHorizontal*speed;
+        if (Input.GetButtonDown("Jump") && _isOnGround) //Devuelve verdadero en  el frame que se oprimió
         {
             Sound = (AudioClip)Resources.Load("Audio/jump", typeof(AudioClip));
             source.PlayOneShot(Sound, 2f);
