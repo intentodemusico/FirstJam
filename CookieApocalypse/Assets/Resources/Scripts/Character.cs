@@ -97,6 +97,7 @@ public class Character : MonoBehaviour
         // Cast a ray straight down.
         hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, groundLayer);
         //Tal vez se deba modificar la distancia bc la altura del mapa podría generar errores
+        
         if (!hit.collider.Equals(null))
         {
             //float distance = hit.distance;

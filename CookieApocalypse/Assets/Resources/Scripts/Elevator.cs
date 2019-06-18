@@ -25,7 +25,7 @@ public class Elevator : MonoBehaviour
     {
         if (bandera)
         {
-            Debug.Log("entró");
+          
             GameObject ascensor = GameObject.FindWithTag("Elevator");
             float newY = 4 * Mathf.Sin(Time.time * 1f);
             ascensor.transform.position = new Vector2(ascensor.transform.position.x,   newY);
