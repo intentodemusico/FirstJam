@@ -32,7 +32,7 @@ public class enemySpawner : MonoBehaviour
         if (canSpawn && Time.time > nexSpawn)
         {
             nexSpawn = Time.time + spawnRate;
-            randX = Random.Range(-8, 30);
+            randX = Random.Range(-10, 50);
             whereToSpawn=new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
             spawned++;
